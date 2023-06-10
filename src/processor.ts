@@ -11,7 +11,7 @@ const processor = new EvmBatchProcessor()
     chain: process.env.RPC_MOONBEAM_HTTP
   })
 	.setBlockRange({from: 3_720_000})
-  .setFinalityConfirmation(0)
+  .setFinalityConfirmation(10)
   .addLog({
     topic0: [ erc721abi.events.Transfer.topic ],
     transaction: true

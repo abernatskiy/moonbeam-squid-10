@@ -1,7 +1,7 @@
 manifestVersion: subsquid.io/v0.1
-name: moonbeam-squid
+name: moonbeam-squid-10
 version: 1
-description: 'A test moonbeam arrow-squid '
+description: 'A test moonbeam arrow-squid with 10 btf'
 build: 
 deploy:
   addons:
