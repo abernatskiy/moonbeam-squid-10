@@ -1,0 +1,22 @@
+{
+  "name": "squid-evm-template",
+  "private": true,
+  "scripts": {
+    "build": "rm -rf lib && tsc"
+  },
+  "dependencies": {
+    "@subsquid/archive-registry": "^2.1.9",
+    "@subsquid/evm-processor": "^1.1.0",
+    "@subsquid/graphql-server": "4.0.0",
+    "@subsquid/typeorm-migration": "1.0.0",
+    "@subsquid/typeorm-store": "1.0.0",
+    "dotenv": "^16.0.3",
+    "ethers": "^6.5.1"
+  },
+  "devDependencies": {
+    "@subsquid/evm-typegen": "3.0.0",
+    "@subsquid/typeorm-codegen": "1.0.0",
+    "@types/node": "^18.15.5",
+    "typescript": "~5.0.2"
+  }
+}
